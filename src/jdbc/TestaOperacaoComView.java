@@ -1,7 +1,14 @@
 package jdbc;
 
+import javax.swing.JFrame;
+
+import view.ProdutoCategoriaFrame;
+
 public class TestaOperacaoComView {
+
     public static void main(String[] args) {
-        System.out.println("hello");
+        ProdutoCategoriaFrame produtoCategoriaFrame = new ProdutoCategoriaFrame();
+        produtoCategoriaFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
+
